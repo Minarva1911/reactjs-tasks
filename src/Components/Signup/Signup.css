@@ -1,4 +1,27 @@
 .demo{
     background-color:purple;
     color:white;
+    height: 600px;
+    width: 500px;
 }
+.head{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.button{
+    width: 330px;
+    height: 40px;
+    background-color: #e91e63 ;
+  }
+  .para{
+      color: grey;
+  }
+  .para1{
+      margin-left: -60px;
+  }
+  .mobile{
+    padding:10px;
+    padding-left: 20px;
+    background-color: purple;
+    color: white;
+  }

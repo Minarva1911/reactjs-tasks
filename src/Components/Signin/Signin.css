@@ -1,4 +1,40 @@
+.head{
+    font-size: 30px;
+    padding-top: 20px;
+}
 .demo1{
     background-color:purple;
     color:white;
+    height: 600px;
+    width: 500px;
+}
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    margin-top: 30px ;
+}
+.para{
+  color: grey;
+}
+.box1{
+    margin-left: -210px;
+}
+.box2{
+    margin-left: 200px;
+}
+a{
+  color:yellow ;
+  text-decoration: none;
+}
+.button{
+  width: 360px;
+  height: 40px;
+  background-color: #e91e63 ;
+}
+.mobile{
+  padding:10px;
+  padding-left: 20px;
+  background-color: purple;
+    color: white;
 }
