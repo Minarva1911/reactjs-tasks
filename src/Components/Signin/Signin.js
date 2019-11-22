@@ -18,7 +18,7 @@ class Signin extends Component {
                 <div className="box2">Forgot Password?</div><br/>
                 <div><button className="button">Signin</button></div>
               </form><br/>
-                <div>Create a new account<div><br/>
+                <div>Create a new account</div><br/>
                 <div>(or)</div><br/>
                 <div>
                   <SocialIcon url="http://twitter.com/jaketrent" />
@@ -26,8 +26,6 @@ class Signin extends Component {
                   <SocialIcon url="http://google.com/jaketrent" />
                 </div>
                 <a href="/signup">signup</a>
-            </div>
-          </div>
         </div>
       </center>
     );
