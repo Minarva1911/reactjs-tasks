@@ -9,6 +9,7 @@ class Navbar extends Component {
         <a className="header" href='/userinput'>Task2</a>
         <a className="header" href='/lifecycle'>Task3</a>
         <a className="header" href='/add'>Task4</a>
+        <a className="header" href='/demo'>Demo</a>
         <a className="header" href='/button'>Task5</a>
         <a className="header" href='/restless'>Task6</a>
 

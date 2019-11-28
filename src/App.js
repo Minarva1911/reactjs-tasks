@@ -9,6 +9,7 @@ import Add from './Components/Add/Add';
 import Button from './Components/Button/Button';
 import Userinput from './Components/Userinput/Userinput';
 import Restless from './Components/Restless/Restless';
+import Demo from './Components/Demo/Demo';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route exact path='/lifecycle' component={Lifecycle}></Route>
           <Route exact path='/signup' component={Signup}></Route>
           <Route exact path='/add' component={Add}></Route>
+          <Route exact path='/demo' component={Demo}></Route>
           <Route exact path='/userinput' component={Userinput}></Route>
           <Route exact path='/restless' component={Restless}></Route>
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from '../Navigationbar/Navbar';
 
 class Demo extends Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class Demo extends Component {
   render() {
     return (
       <div>
+        <Navbar/>
         <button onClick={this.IncrementItem}>Click to increment by 10</button>
         <button onClick={this.DecreaseItem}>Click to decrease by 10</button>
         <button onClick={this.MultiplyItem}>Click to Multily by 10</button>
