@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Restlessa = ({ list }) => {
+const Restlessa = ({ list, list1 }) => {
   return (
     <div>
       <h1>Contact List</h1>
@@ -11,6 +11,14 @@ const Restlessa = ({ list }) => {
         <h2>{list.location}</h2>
         <h2>{list.bio}</h2>
       </div>
+      <hr />
+      {list1.map((contact) => (
+        <div>
+          <h2>{contact.id}</h2>
+          <h2>{contact.name}</h2>
+          <h2>{contact.email}</h2>
+        </div>
+      ))}
     </div>
 
   )
