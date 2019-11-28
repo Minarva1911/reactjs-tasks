@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from '../Navigationbar/Navbar';
 
 class Lifecycle extends Component {
   constructor(props) {
@@ -17,6 +18,7 @@ class Lifecycle extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         Hi good morning<br />
         welcome to qwinix technology
             </div>

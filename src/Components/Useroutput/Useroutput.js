@@ -9,6 +9,6 @@ const Useroutput=(props)=>{
       Mandya is a City in the state of Karnataka.
     </p>
   </div>
-    )
+    );
 }
 export default Useroutput;

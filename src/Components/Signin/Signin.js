@@ -3,12 +3,15 @@ import { breakStatement } from '@babel/types';
 import './Signin.css';
 import images from "../Image1.jpg";
 import { SocialIcon } from 'react-social-icons';
+import Navbar from '../Navigationbar/Navbar';
 
 class Signin extends Component {
   render() {
     return (
       <center>
+         <Navbar/>
         <div className="demo1">
+       
           <div className="head">Signin Form</div>
             <img src={images}/><br/><br/>
               <form>

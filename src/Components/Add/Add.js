@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from '../Navigationbar/Navbar';
 
 class Add extends Component {
   state = {
@@ -43,6 +44,7 @@ class Add extends Component {
   render() {
     return (
       <div>
+         <Navbar/>
         <div>
           <button onClick={this.makeMeYounger}>add</button>
           <br />

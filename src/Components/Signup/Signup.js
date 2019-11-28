@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './Signup.css';
+import Navbar from '../Navigationbar/Navbar';
 
 class Signup extends Component {
     render() {
         return (
           <center>
+              <Navbar/>
             <div className="demo">
                <div className="head">Signup Form</div> 
                 <form> <br />
